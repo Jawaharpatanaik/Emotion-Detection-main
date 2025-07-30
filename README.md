@@ -1,28 +1,37 @@
-# **Emotion Detection Web App 🎭**
+# 😄 Real-Time Facial Emotion Detection
 
-This project is a **real-time Emotion Detection system** using **CNN, TensorFlow, OpenCV, Flask**, and a **web-based UI** built with **HTML, CSS, and JavaScript**. The system detects human emotions through a webcam and displays predictions on the frontend.
-
----
-
-## **🔹 Features**
-✔️ **Real-time emotion detection** via webcam.  
-✔️ **CNN-based emotion recognition** using TensorFlow.  
-✔️ **Flask API** for model inference.  
-✔️ **Frontend UI** with a clean and interactive design.  
-✔️ **Works with live webcam feed** on a browser.
+This project is a real-time emotion detection system that uses a Convolutional Neural Network (CNN) to classify facial expressions into seven categories using live webcam input. The model is trained using grayscale face images and deployed with a live video feed interface using Streamlit and OpenCV.
 
 ---
 
-![image](https://github.com/user-attachments/assets/a2802d30-fe1e-4333-aa21-2d1076a9ad2d)
+## 📌 Features
 
+- 🎥 Real-time emotion recognition using webcam
+- 💻 Live UI using Streamlit
+- 🧠 Deep Learning (CNN) model trained on facial expression dataset
+- 🔍 Emotion classes: Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
+- ✅ Supports both `.h5` and new `.keras` model formats
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- TensorFlow / Keras
+- OpenCV
+- Streamlit
+- MediaPipe (optional, for face mesh support)
 
 ---
 
-## **📌 Tech Stack**
-- **Backend**: Flask, TensorFlow, OpenCV  
-- **Frontend**: HTML, CSS, JavaScript  
-- **Model**: Convolutional Neural Network (CNN)  
-- **Data Preprocessing**: OpenCV, NumPy  
-- **Deployment**: Flask Server  
+## 🚀 Installation
 
----
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/your-username/emotion-detection-app.git
+   cd emotion-detection-app
+
+
+## 🖼️ Live Demo
+
+![Emotion Detection Preview](assets/demo_preview.png)
