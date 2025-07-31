@@ -32,6 +32,4 @@ This project is a real-time emotion detection system that uses a Convolutional N
    cd emotion-detection-app
 
 
-## 🖼️ Live Demo
 
-![Emotion Detection Preview](assets/demo_preview.png)
